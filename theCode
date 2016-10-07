@@ -1,0 +1,37 @@
+var exerciseList = [];
+
+function Exercise (name, difficulty, lowImpact) {
+	this.name = name;
+  this.difficulty = difficulty;
+  this.lowImpact = false;
+  
+  // should this be placed in a separate prototype for speedier code?
+  this.toList = function() {
+  	exerciseList.push(this.name);
+  }
+}
+
+var pushups = new Exercise("pushups", "medium", true);
+var mountainClimbers = new Exercise("mountain climbers", "medium", true)
+var burpees = new Exercise("burpees", "hard", false);
+
+pushups.toList();
+mountainClimbers.toList();
+burpees.toList();
+
+console.log(exerciseList);
+
+var x = exerciseList.length;
+var lowImpactList = [];
+var highImpactList = [];
+
+for (var i = 0; i <= x; i++) {
+	if (exerciseList[i].lowImpact == false) {
+  lowImpactList.push(exerciseList[i].name);
+  } else {
+  highImpactList.push(exerciseList[i].name);
+  }
+}
+console.log(lowImpactList);
+console.log(highImpactList);
+
