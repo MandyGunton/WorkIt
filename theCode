@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+<head>
+	<title>HIIT Workout Randomizer</title>
+	<style>
+	.underline {
+		color: black;
+		text-decoration: underline;
+		}
+	</style>
+</head>
+
+<body>
+
+<script>
 var exerciseList = [];
 
 //exercise object prototype include fields for name, difficulty level, body part targeted, low impact, ok to do in public, 
@@ -41,3 +57,7 @@ for (var i = 0; i <= x; i++) {
 console.log(lowImpactList);
 console.log(highImpactList);
 
+</script>
+
+</body>
+</html>
