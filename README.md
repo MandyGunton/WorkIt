@@ -1,5 +1,5 @@
 # WorkIt
-HIIT webapp randomizer
+My first webapp in Javascript - a high intensity interval training randomizer
 
 *Basic*
 Click button
