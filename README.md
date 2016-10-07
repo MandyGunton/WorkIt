@@ -1,10 +1,11 @@
 # WorkIt
+*What*
+
 My first webapp in Javascript - a high intensity interval training randomizer
 
-*Basic*
-Click button
-Create list of 15 random exercises
-Print button
+*Basic Functionality*
+
+Click a button and get a printable list of 15 random HIIT exercises.
 
 *Additional Functionality*
 
