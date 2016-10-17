@@ -1,0 +1,102 @@
+/*randomizer stylesheet*/
+
+html, body, h1, h2, h3, h4, h5, h6, p, div, script, ul {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  fontsize: 100%;
+  /* font-family: Garamond, Georgia, serif; */
+  font-family: Verdana, Geneva, sans-serif;
+}
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  font-size: 70px;
+  /* font-weight: bold; */
+  text-align: center;
+  //example background-color: #E4E2D5
+  //example font-size: 300%;
+  //example border: 5px solid black;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Garamond, Georgia, serif;
+  color: #000000;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.header {
+  background-color: powderblue;
+}
+
+.tagline {
+  background-color: #d3d3d3;
+  margin-bottom: 10px;
+  padding: 10px 0 10px 0;
+  border-style: solid;
+  border-width: thin;
+}
+
+.description {
+  padding: 20px 0 20px 0;
+  background-color: powderblue;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+input.workIt {
+  width: 200px;
+  height: 100px;
+}
+
+.exerciseList {
+  text-align: center;
+  font-size: 22px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.exerciseList h3 {
+  text-decoration: underline;
+}
+
+.coming {
+  padding: 0 0 10px 10px;
+  text-align: center;
+}
+
+.coming h3 {
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #d3d3d3;
+  border-style: solid;
+  border-width: thin;
+  font-style: italic;
+  line-height: 1.5;
+}
